@@ -1,58 +1,54 @@
-# Personal Portfolio Website built with React v16
 
-[![Screenshot](/public/social-image.png?raw=true)](https://taniyow.vercel.app)
+# Portfolio <img src="https://img.icons8.com/external-filled-outline-wichaiwi/344/external-description-e-commerce-website-filled-outline-wichaiwi.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
-[![Website mctan.dev](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://mctan.dev)
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/taniyow/taniyow-portfolio-react/blob/master/LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/taniyow/taniyow-portfolio-react/graphs/commit-activity)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+>  Professional portfolio providing accessibility to my career, skills, professional information, and any other relevant details.
 
-A clean and customizable ReactJS portfolio template for fellow developers. Credits to Jo Lienhoop!. View demo at [https://http://vercel.com//](https://taniyow.vercel.app)
 
-- built using [React](https://reactjs.org)
-- bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
-- styled with [Material-UI](https://material-ui.com)
-- deployed on vercel [Vercel](https://vercel.com)
+## Built With <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-build-agile-flaticons-lineal-color-flat-icons.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
-Special thanks to [Jo Lienhoop](https://github.com/JoHoop), and [Cody Bennett](https://github.com/CodyJasonBennett) for the inspiration.
+- React
+- Material-UI
 
-## Features
+      
 
-- All of the personal information is populated from the resume.json file following the [JSON Resume](https://jsonresume.org) standard, a community driven open source initiative to create a JSON based standard for resumes. Discover the official schema [here](https://jsonresume.org/schema).
-- The toggle/switch for the dark mode syncs its state to the local storage.
+## Live Demo <img src="https://img.icons8.com/color/344/trial-version.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
-#### Coming soon
 
-- Two beautiful resume page templates generated based on the data in the resume.json file -- a modern approach of the traditional printed CV.
-- Rich Google search results using structured data with [json-ld.org/](https://json-ld.org).
+[Netlify](https://wander-portfolio.netlify.app/)  <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/344/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" alt="Bootstrap Icon" style="width: 25px; height: 25px">
 
-## Customization
 
-Feel free to fork this project and customize it with your own information and style.
+## Authors  <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/344/external-author-copyright-law-flaticons-flat-flat-icons.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
-Refer to the [Material UI docs](https://material-ui.com/customization/theming) for guidance on how to quickly customize the themes, components and colors to suit your tastes.
+👤 **Author**
 
-If you improve the app in any way a pull request would be very much appreciated ✌️
 
-## Available Scripts
+- GitHub: [@wandergithub](https://github.com/wandergithub)
+- Twitter: [@wanderklk1](https://twitter.com/wanderklk1)
+- LinkedIn: [Wander A. Gonzalez](https://www.linkedin.com/in/wander-a-gonzalez-53127b205/)
 
-In the project directory, you can run:
+## Contributing  <img src="https://img.icons8.com/doodle/344/helping.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
-### `npm install`
+Contributions, issues, and feature requests are welcome!
 
-to install the dependencies.
+Feel free to check the [issues page](../../issues/).
 
-### `npm start`
+## Show your support  
 
-to run the app in the development mode at [http://localhost:3000](http://localhost:3000)<br />
+Give a ⭐️ if you like this project!
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Acknowledgments
 
-### `npm run build`
+Inspired on [Mark Christian Tan](https://github.com/taniyow) repo template.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Who gives: Special thanks to [Jo Lienhoop](https://github.com/JoHoop), and [Cody Bennett](https://github.com/CodyJasonBennett) for the inspiration.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## License <img src="https://img.icons8.com/dusk/344/licence.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
+
+This project is [MIT](./MIT.md) licensed.
+<br>
+<br>
+<br>
+![](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat)
+![](https://img.shields.io/badge/-Redux-764abc?logo=redux&logoColor=white&style=flat)
+![](https://img.shields.io/badge/-JavaScript-yellow?logo=JavaScript&logoColor=white&style=flat)
+![](https://img.shields.io/badge/-Mui-blue?logo=Mui&logoColor=white&style=flat)

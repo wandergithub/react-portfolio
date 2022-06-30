@@ -27,12 +27,12 @@ export const LogoLink = () => {
       TransitionComponent={Zoom}
     >
       <Link
-          variant="h6"
-          href={Resume.basics.url}
-          underline="none"
-          color="inherit"
-          noWrap
-          className={classes.svg}
+        variant="h6"
+        href={Resume.basics.url}
+        underline="none"
+        color="inherit"
+        noWrap
+        className={classes.svg}
       >
         <Logo />
       </Link>

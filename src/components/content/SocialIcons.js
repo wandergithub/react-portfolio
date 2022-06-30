@@ -1,22 +1,22 @@
-import React from 'react';
-import { Link, Tooltip, IconButton, Zoom } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
-import Resume from '../../settings/resume.json';
+import React from "react";
+import { Link, Tooltip, IconButton, Zoom } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
+import Resume from "../../settings/resume.json";
 
 const useStyles = makeStyles((theme) => ({
   socialIcons: {
-    position: 'fixed',
+    position: "fixed",
     top: theme.spacing(6),
     right: theme.spacing(6),
   },
   iconButton: {
-    height: '2.5rem',
-    width: '2.5rem',
-    display: 'block',
+    height: "2.5rem",
+    width: "2.5rem",
+    display: "block",
     marginBottom: theme.spacing(2),
   },
   icon: {
-    fontSize: '1.25rem',
+    fontSize: "1.25rem",
   },
 }));
 
@@ -27,18 +27,18 @@ export const SocialIcons = () => {
     <Link
       href={socialItem.url}
       key={socialItem.network.toLowerCase()}
-      target='_blank'
-      rel='noopener noreferrer'
-      underline='none'
-      color='inherit'
+      target="_blank"
+      rel="noopener noreferrer"
+      underline="none"
+      color="inherit"
     >
       <Tooltip
         title={socialItem.username}
-        placement='left'
+        placement="left"
         TransitionComponent={Zoom}
       >
         <IconButton
-          color='inherit'
+          color="inherit"
           aria-label={socialItem.network}
           className={classes.iconButton}
         >

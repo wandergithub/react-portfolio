@@ -18,27 +18,27 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export const ThemeToggle = () => {
-    const { theme, toggleTheme } = useContext(ThemeContext);
-    const classes = useStyles();
+  const { theme, toggleTheme } = useContext(ThemeContext);
+  const classes = useStyles();
 
-    return (
-      <Tooltip
-        title={"Toggle theme"}
-        placement="right"
-        TransitionComponent={Zoom}
+  return (
+    <Tooltip
+      title={"Toggle theme"}
+      placement="right"
+      TransitionComponent={Zoom}
+    >
+      <IconButton
+        color="inherit"
+        onClick={toggleTheme}
+        aria-label={"Toggle theme"}
+        className={classes.iconButton}
       >
-        <IconButton
-          color="inherit"
-          onClick={toggleTheme}
-          aria-label={"Toggle theme"}
-          className={classes.iconButton}
-        >
-          {theme === "light" ? (
-              <Brightness4 className={classes.icon} />
-          ) : (
-              <Brightness7 className={classes.icon} />
-          )}
-        </IconButton>
-      </Tooltip>
-    );
+        {theme === "light" ? (
+          <Brightness4 className={classes.icon} />
+        ) : (
+          <Brightness7 className={classes.icon} />
+        )}
+      </IconButton>
+    </Tooltip>
+  );
 };

@@ -1,8 +1,8 @@
 /**
  * Clean up a scene's materials and geometry
  */
-export const cleanScene = scene => {
-  scene.traverse(object => {
+export const cleanScene = (scene) => {
+  scene.traverse((object) => {
     if (!object.isMesh) return;
 
     object.geometry.dispose();
@@ -22,12 +22,12 @@ export const cleanScene = scene => {
 /**
  * Clean up and dispose of a material
  */
-export const cleanMaterial = material => {
+export const cleanMaterial = (material) => {
   material.dispose();
 
   for (const key of Object.keys(material)) {
     const value = material[key];
-    if (value && typeof value === 'object' && 'minFilter' in value) {
+    if (value && typeof value === "object" && "minFilter" in value) {
       value.dispose();
     }
   }
@@ -36,7 +36,7 @@ export const cleanMaterial = material => {
 /**
  * Clean up and dispose of a renderer
  */
-export const cleanRenderer = renderer => {
+export const cleanRenderer = (renderer) => {
   renderer.dispose();
   renderer.forceContextLoss();
   renderer = null;
@@ -45,7 +45,7 @@ export const cleanRenderer = renderer => {
 /**
  * Clean up lights by removing them from their parent
  */
-export const removeLights = lights => {
+export const removeLights = (lights) => {
   for (const light of lights) {
     light.parent.remove(light);
   }

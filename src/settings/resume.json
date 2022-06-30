@@ -1,145 +1,157 @@
 {
-    "basics": {
-        "name": "Wander Gonzalez",
-        "label": "Web Developer",
-        "email": "markcmtan@gmail.com",
-        "phone": "(XXX) XXX-XXXX",
-        "picture": "mt.png",
-        "x_title": "Hello, I'm",
-        "job1": "Web",
-        "job2": "Developer",
-        "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
-        "summary": "based in Angeles, Dominican Republic.",
-        "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,Dominican Republic,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
-        "url": "https://taniyow.vercel.app/",
-        "location": {
-            "address": "XX XXXXXstreet",
-            "postalCode": "XXXXX",
-            "city": "Santo Domingo",
-            "country": "Dominican Republic",
-            "countryCode": "PH",
-            "region": "Distrito Nacional"
-        },
-        "profiles": [
-            {
-                "network": "Google",
-                "username": "wandergonzalez0@gmail.com",
-                "url": "mailto:wandergonzalez0@gmail.com",
-                "x_icon": "fab fa-google"
-            },
-            {
-                "network": "LinkedIn",
-                "username": "Wander A. Gonzalez",
-                "url": "https://www.linkedin.com/in/wander-gonzalez/",
-                "x_icon": "fab fa-linkedin-in"
-            },
-            {
-                "network": "GitHub",
-                "username": "@wandergithub",
-                "url": "https://github.com/wandergithub",
-                "x_icon": "fab fa-github"
-            },
-            {
-                "network": "GitLab",
-                "username": "Wander A. Gonzalez Martinez",
-                "url": "https://gitlab.com/wandergithub",
-                "x_icon": "fab fa-gitlab"
-            },
-            {
-                "network": "Telegram",
-                "username": "Wander Gonzalez",
-                "url": "https://t.me/WanderGonzalez",
-                "x_icon": "fab fa-telegram-plane"
-            },
-            {
-                "network": "Discord",
-                "username": "wander#9831",
-                "url": "https://discord.com",
-                "x_icon": "fab fa-discord"
-            }
-        ]
+  "basics": {
+    "name": "Wander Gonzalez",
+    "label": "Web Developer",
+    "email": "markcmtan@gmail.com",
+    "phone": "(XXX) XXX-XXXX",
+    "picture": "mt.png",
+    "x_title": "Hello, I'm",
+    "job1": "Web",
+    "job2": "Developer",
+    "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
+    "summary": "based in Angeles, Dominican Republic.",
+    "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,Dominican Republic,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
+    "url": "https://taniyow.vercel.app/",
+    "location": {
+      "address": "XX XXXXXstreet",
+      "postalCode": "XXXXX",
+      "city": "Santo Domingo",
+      "country": "Dominican Republic",
+      "countryCode": "PH",
+      "region": "Distrito Nacional"
     },
-    "work": [
-        {
-            "company": "Company",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "highlights": ["Started the company"]
-        }
-    ],
-    "volunteer": [
-        {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
-        }
-    ],
-    "education": [
-        {
-            "institution": "University",
-            "area": "Software Development",
-            "studyType": "Bachelor",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
-        }
-    ],
-    "skills": [
-        {
-            "name": "Web Development",
-            "level": "Master",
-            "keywords": ["HTML", "CSS", "Javascript"]
-        }
-    ],
-    "languages": [
-        {
-            "language": "German",
-            "fluency": "Native speaker"
-        },
-        {
-            "language": "English",
-            "fluency": "Fluent speaker"
-        },
-        {
-            "language": "French",
-            "fluency": "Good knowledge"
-        }
-    ],
-    "interests": [
-        {
-            "name": "Wildlife",
-            "keywords": ["Ferrets", "Unicorns"]
-        }
-    ],
-    "references": [
-        {
-            "name": "Jane Doe",
-            "reference": "Reference..."
-        }
+    "profiles": [
+      {
+        "network": "Google",
+        "username": "wandergonzalez0@gmail.com",
+        "url": "mailto:wandergonzalez0@gmail.com",
+        "x_icon": "fab fa-google"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Wander A. Gonzalez",
+        "url": "https://www.linkedin.com/in/wander-gonzalez/",
+        "x_icon": "fab fa-linkedin-in"
+      },
+      {
+        "network": "GitHub",
+        "username": "@wandergithub",
+        "url": "https://github.com/wandergithub",
+        "x_icon": "fab fa-github"
+      },
+      {
+        "network": "GitLab",
+        "username": "Wander A. Gonzalez Martinez",
+        "url": "https://gitlab.com/wandergithub",
+        "x_icon": "fab fa-gitlab"
+      },
+      {
+        "network": "Telegram",
+        "username": "Wander Gonzalez",
+        "url": "https://t.me/WanderGonzalez",
+        "x_icon": "fab fa-telegram-plane"
+      },
+      {
+        "network": "Discord",
+        "username": "wander#9831",
+        "url": "https://discord.com",
+        "x_icon": "fab fa-discord"
+      },
+      {
+        "network": "Medium",
+        "username": "wandergonzalez0",
+        "url": "https://medium.com/@wandergonzalez0",
+        "x_icon": "fab fa-medium"
+      },
+      {
+        "network": "Twitter",
+        "username": "wanderklk1",
+        "url": "https://twitter.com/wanderklk1",
+        "x_icon": "fab fa-twitter"
+      }
     ]
+  },
+  "work": [
+    {
+      "company": "Company",
+      "position": "President",
+      "website": "http://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description...",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "website": "http://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description...",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "gpa": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "website": "http://publication.com",
+      "summary": "Description..."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "Javascript"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Good knowledge"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference..."
+    }
+  ]
 }

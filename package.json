@@ -57,6 +57,8 @@
     ]
   },
   "devDependencies": {
-    "emailjs": "^4.0.0"
+    "emailjs": "^4.0.0",
+    "eslint": "^8.18.0",
+    "prettier": "2.7.1"
   }
 }

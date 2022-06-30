@@ -9,22 +9,22 @@
 
 A clean and customizable ReactJS portfolio template for fellow developers. Credits to Jo Lienhoop!. View demo at [https://http://vercel.com//](https://taniyow.vercel.app)
 
--   built using [React](https://reactjs.org)
--   bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
--   styled with [Material-UI](https://material-ui.com)
--   deployed on vercel [Vercel](https://vercel.com)
+- built using [React](https://reactjs.org)
+- bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+- styled with [Material-UI](https://material-ui.com)
+- deployed on vercel [Vercel](https://vercel.com)
 
 Special thanks to [Jo Lienhoop](https://github.com/JoHoop), and [Cody Bennett](https://github.com/CodyJasonBennett) for the inspiration.
 
 ## Features
 
--   All of the personal information is populated from the resume.json file following the [JSON Resume](https://jsonresume.org) standard, a community driven open source initiative to create a JSON based standard for resumes. Discover the official schema [here](https://jsonresume.org/schema).
--   The toggle/switch for the dark mode syncs its state to the local storage.
+- All of the personal information is populated from the resume.json file following the [JSON Resume](https://jsonresume.org) standard, a community driven open source initiative to create a JSON based standard for resumes. Discover the official schema [here](https://jsonresume.org/schema).
+- The toggle/switch for the dark mode syncs its state to the local storage.
 
 #### Coming soon
 
--   Two beautiful resume page templates generated based on the data in the resume.json file -- a modern approach of the traditional printed CV.
--   Rich Google search results using structured data with [json-ld.org/](https://json-ld.org).
+- Two beautiful resume page templates generated based on the data in the resume.json file -- a modern approach of the traditional printed CV.
+- Rich Google search results using structured data with [json-ld.org/](https://json-ld.org).
 
 ## Customization
 

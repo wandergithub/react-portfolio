@@ -1,3 +1,10 @@
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
 .project {
   width: 80%;
   margin-left: 7rem;

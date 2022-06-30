@@ -2,7 +2,7 @@ nav {
   position: fixed;
   display: flex;
   flex-direction: row-reverse;
-  transform: rotate(-90deg) translate3d(-50%,0,0);
+  transform: rotate(-90deg) translate3d(-50%, 0, 0);
   top: 15%;
   left: -6.5rem;
 }

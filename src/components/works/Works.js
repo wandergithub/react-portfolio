@@ -32,6 +32,18 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+const isTagged = (projectTechs, arrayTags) => {
+  if (arrayTags.length === 0) {
+    return true;
+  }
+
+  for(let i = 0; i < projectTechs.length; i++) {
+    if(arrayTags.includes(projectTechs[i])) return true;
+  }
+
+  return false;
+};
+
 export const Works = () => {
   const classes = useStyles();
   const [filters, setFilters] = useState([]);
@@ -47,6 +59,7 @@ export const Works = () => {
         github: "https://github.com/wandergithub/Stock-Metrics",
         live: "https://stock-market-webb-app.herokuapp.com/",
       },
+      tech: ['JavaScript','Ruby'],
     },
     {
       id: 2,
@@ -60,6 +73,7 @@ export const Works = () => {
         github: "https://github.com/wandergithub/travelers-hub",
         live: "https://wandergithub.github.io/travelers-hub/",
       },
+      tech: [],
     },
     {
       id: 3,
@@ -74,6 +88,7 @@ export const Works = () => {
         github: "https://github.com/wandergithub/Bookstore",
         live: "https://dev--relaxed-liger-ac7a98.netlify.app",
       },
+      tech: [],
     },
     {
       id: 4,
@@ -86,6 +101,7 @@ export const Works = () => {
         github: "https://github.com/wandergithub/Singers-details",
         live: "https://wandergithub.github.io/Singers-details/",
       },
+      tech: [],
     },
   ]);
 
@@ -121,37 +137,41 @@ export const Works = () => {
             />
           </div>
         </div>
-        {projects.map((project) => (
-          <div className="project" key={project.id}>
-            <div className="__img_wrapper">
-              <img src={project.image} alt={project.alter} />
-            </div>
-            <div className="__content_wrapper">
-              <h3 className="title">
-                <TextDecrypt text={project.id + ". " + project.title} />
-              </h3>
-              <p className="description">{project.description}</p>
-              <div className="btn-container">
-                <Button
-                  variant="outlined"
-                  onClick={() => {
-                    window.open(project.url.github, "_blank");
-                  }}
-                >
-                  GitHub
-                </Button>
-                <Button
-                  variant="outlined"
-                  onClick={() => {
-                    window.open(project.url.live, "_blank");
-                  }}
-                >
-                  Live
-                </Button>
+        {projects.map((project) => {
+          const arr = filters.map((filter) => filter.tech);
+          if(isTagged(project.tech, arr))
+          return (
+            <div className="project" key={project.id}>
+              <div className="__img_wrapper">
+                <img src={project.image} alt={project.alter} />
+              </div>
+              <div className="__content_wrapper">
+                <h3 className="title">
+                  <TextDecrypt text={project.id + ". " + project.title} />
+                </h3>
+                <p className="description">{project.description}</p>
+                <div className="btn-container">
+                  <Button
+                    variant="outlined"
+                    onClick={() => {
+                      window.open(project.url.github, "_blank");
+                    }}
+                  >
+                    GitHub
+                  </Button>
+                  <Button
+                    variant="outlined"
+                    onClick={() => {
+                      window.open(project.url.live, "_blank");
+                    }}
+                  >
+                    Live
+                  </Button>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          )
+        })}
       </Container>
     </section>
   );

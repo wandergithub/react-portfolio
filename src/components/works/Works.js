@@ -97,33 +97,33 @@ export const Works = () => {
     <section id="works">
       <Container component="main" className={classes.main} maxWidth="md">
         <div className="filter">
-            <div className="__content_wrapper">
-                <h3 className="title">
-                  <TextDecrypt text="Filter projects by tech tag" />
-                </h3>
-                <Autocomplete
-                  multiple
-                  id="checkboxes-tags"
-                  options={techStack}
-                  disableCloseOnSelect
-                  getOptionLabel={(option) => option.tech}
-                  renderOption={(props, option, { selected }) => (
-                    <li {...props}>
-                      <Checkbox
-                        icon={icon}
-                        checkedIcon={checkedIcon}
-                        style={{ marginRight: 8 }}
-                        checked={selected}
-                      />
-                      {option.tech}
-                    </li>
-                  )}
-                  renderInput={(params) => (
-                    <TextField {...params} label="Checkboxes" placeholder="Project Tags" />
-                  )}
-                  onChange={(event, value) => updateFilter(value)}
-                />
-            </div>
+          <div>
+            <h3 className="title">
+              <TextDecrypt text="Filter projects by tech tag" />
+            </h3>
+            <Autocomplete
+              multiple
+              id="checkboxes-tags"
+              options={techStack}
+              disableCloseOnSelect
+              getOptionLabel={(option) => option.tech}
+              renderOption={(props, option, { selected }) => (
+                <li {...props}>
+                  <Checkbox
+                    icon={icon}
+                    checkedIcon={checkedIcon}
+                    style={{ marginRight: 8 }}
+                    checked={selected}
+                  />
+                  {option.tech}
+                </li>
+              )}
+              renderInput={(params) => (
+                <TextField {...params} label="Checkboxes" placeholder="Project Tags" />
+              )}
+              onChange={(event, value) => updateFilter(value)}
+            />
+          </div>
         </div>
         {projects.map((project) => (
           <div className="project" key={project.id}>

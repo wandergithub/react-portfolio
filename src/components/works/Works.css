@@ -56,7 +56,7 @@
   width: 60%;
 }
 @media (max-width: 1024px) {
-  .project {
+  .project, .filter {
     margin-left: 3rem;
     margin-right: 3rem;
   }
@@ -65,7 +65,7 @@
   }
 }
 @media (max-width: 768px) {
-  .project {
+  .project, .filter {
     margin-left: 4em;
     margin-right: 4em;
     flex-direction: column;

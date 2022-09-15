@@ -23,13 +23,12 @@ export const ThemeToggle = () => {
 
   return (
     <Tooltip
-      title={"Toggle theme"}
+      title={"Theme fixed to light"}
       placement="right"
       TransitionComponent={Zoom}
     >
       <IconButton
         color="inherit"
-        onClick={toggleTheme}
         aria-label={"Toggle theme"}
         className={classes.iconButton}
       >

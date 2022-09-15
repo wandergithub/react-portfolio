@@ -22,7 +22,7 @@ export const ThemeProvider = ({ children }) => {
     return window.matchMedia("(prefers-color-scheme: dark)").matches;
   };
 
-  const [theme, setTheme] = useState(getInitialMode() ? "dark" : "light");
+  const [theme, setTheme] = useState(getInitialMode() ? "light" : "light");
 
   const toggleTheme = () => {
     if (theme === "light") {

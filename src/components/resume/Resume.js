@@ -27,7 +27,7 @@ export const Resume = () => {
     <Link
       color="inherit"
       underline="none"
-      href={`${ResumePDF}`}
+      href="https://docs.google.com/document/d/1h0uw-ZeSdK3Z30eIW2l6lP9oTbGHVX0ixd3vWrBdR3s/edit?usp=sharing"
       target="_blank"
       rel="noopener noreferrer"
       className={classes.footerText}

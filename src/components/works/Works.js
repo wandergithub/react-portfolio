@@ -118,7 +118,6 @@ export const Works = () => {
                       {option.tech}
                     </li>
                   )}
-                  style={{ width: 500 }}
                   renderInput={(params) => (
                     <TextField {...params} label="Checkboxes" placeholder="Project Tags" />
                   )}

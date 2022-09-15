@@ -4,6 +4,12 @@
   gap: 5px;
   margin-bottom: 10px;
 }
+#checkboxes-tags {
+  width: 100%;
+}
+.filter :first-child {
+  background-color: #3b4752;
+}
 .filter {
   width: 80%;
   margin-left: 7rem;

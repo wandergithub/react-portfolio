@@ -32,10 +32,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const updateFilter = (filters) => {
-
-};
-
 export const Works = () => {
   const classes = useStyles();
   const [filters, setFilters] = useState([]);
@@ -121,7 +117,7 @@ export const Works = () => {
               renderInput={(params) => (
                 <TextField {...params} label="Checkboxes" placeholder="Project Tags" />
               )}
-              onChange={(event, value) => updateFilter(value)}
+              onChange={(event, value) => setFilters(value)}
             />
           </div>
         </div>

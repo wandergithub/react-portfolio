@@ -5,6 +5,13 @@ import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
 import Button from "@material-ui/core/Button";
+// Filter material components
+import Checkbox from '@mui/material/Checkbox';
+import TextField from '@mui/material/TextField';
+import Autocomplete from '@mui/material/Autocomplete';
+import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
+import CheckBoxIcon from '@mui/icons-material/CheckBox';
+// Css imports
 import "./Works.css";
 
 // Import ../../assets/recentprojects/
@@ -12,6 +19,10 @@ import travelers from "../../assets/recentprojects/travelersHub.png";
 import stockImgApp from "../../assets/recentprojects/stockM.png";
 import bookstoreImg from "../../assets/recentprojects/bookstore.png";
 import singers from "../../assets/recentprojects/singers.png";
+
+// Filter tags icons
+const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
+const checkedIcon = <CheckBoxIcon fontSize="small" />;
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -21,8 +32,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+const updateFilter = (filters) => {
+
+};
+
 export const Works = () => {
   const classes = useStyles();
+  const [filters, setFilters] = useState([]);
   const [projects, setProjects] = useState([
     {
       id: 1,
@@ -80,6 +96,36 @@ export const Works = () => {
   return (
     <section id="works">
       <Container component="main" className={classes.main} maxWidth="md">
+        <div className="filter">
+            <div className="__content_wrapper">
+                <h3 className="title">
+                  <TextDecrypt text="Filter projects by tech tag" />
+                </h3>
+                <Autocomplete
+                  multiple
+                  id="checkboxes-tags"
+                  options={techStack}
+                  disableCloseOnSelect
+                  getOptionLabel={(option) => option.tech}
+                  renderOption={(props, option, { selected }) => (
+                    <li {...props}>
+                      <Checkbox
+                        icon={icon}
+                        checkedIcon={checkedIcon}
+                        style={{ marginRight: 8 }}
+                        checked={selected}
+                      />
+                      {option.tech}
+                    </li>
+                  )}
+                  style={{ width: 500 }}
+                  renderInput={(params) => (
+                    <TextField {...params} label="Checkboxes" placeholder="Project Tags" />
+                  )}
+                  onChange={(event, value) => updateFilter(value)}
+                />
+            </div>
+        </div>
         {projects.map((project) => (
           <div className="project" key={project.id}>
             <div className="__img_wrapper">
@@ -115,3 +161,13 @@ export const Works = () => {
     </section>
   );
 };
+
+const techStack = [
+  { tech: 'JavaScript' },
+  { tech: 'Ruby' },
+  { tech: 'ROR' },
+  { tech: 'PostGreSQL' },
+  { tech: 'FrontEnd' },
+  { tech: 'BackEnd' },
+  { tech: 'FullStack' },
+];

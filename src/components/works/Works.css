@@ -4,7 +4,14 @@
   gap: 5px;
   margin-bottom: 10px;
 }
-
+.filter {
+  width: 80%;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .project {
   width: 80%;
   margin-left: 7rem;

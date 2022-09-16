@@ -103,6 +103,32 @@ export const Works = () => {
       },
       tech: [],
     },
+    {
+      id: 5,
+      title: "Singers Details",
+      description: `iTunes API based web app which allows the user search for any artist album's,
+                   like and comment them.`,
+      alter: "Singers Details",
+      image: `${singers}`,
+      url: {
+        github: "https://github.com/wandergithub/Singers-details",
+        live: "https://wandergithub.github.io/Singers-details/",
+      },
+      tech: [],
+    },
+    {
+      id: 6,
+      title: "Singers Details",
+      description: `iTunes API based web app which allows the user search for any artist album's,
+                   like and comment them.`,
+      alter: "Singers Details",
+      image: `${singers}`,
+      url: {
+        github: "https://github.com/wandergithub/Singers-details",
+        live: "https://wandergithub.github.io/Singers-details/",
+      },
+      tech: [],
+    },
   ]);
 
   return (
@@ -136,19 +162,20 @@ export const Works = () => {
               onChange={(event, value) => setFilters(value)}
             />
           </div>
-        </div>
+        </div >
+        <div className="projects-content">
         {projects.map((project) => {
           const arr = filters.map((filter) => filter.tech);
           if(isTagged(project.tech, arr))
           return (
             <div className="project" key={project.id}>
-              <div className="__img_wrapper">
-                <img src={project.image} alt={project.alter} />
-              </div>
-              <div className="__content_wrapper">
+              <div className="__content_wrapper no_with">
                 <h3 className="title">
                   <TextDecrypt text={project.id + ". " + project.title} />
                 </h3>
+                <div className="__img_wrapper">
+                  <img src={project.image} alt={project.alter} />
+                </div>
                 <p className="description">{project.description}</p>
                 <div className="btn-container">
                   <Button
@@ -172,6 +199,7 @@ export const Works = () => {
             </div>
           )
         })}
+        </div>
       </Container>
     </section>
   );

@@ -40,7 +40,7 @@
 }
 .__content_wrapper {
   width: 40%;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   display: flex;
   flex-direction: column;
